@@ -22,6 +22,7 @@ const SearchBar = ({ fetchNasaData, input, setInput }) => {
         onSubmit()
       }}
     >
+      <div className="search-container">
       <input
         className="searchbar__input"
         placeholder={placeholder}
@@ -29,8 +30,9 @@ const SearchBar = ({ fetchNasaData, input, setInput }) => {
         onChange={(e) => setInput(e.target.value)}
       />
       <button className="searchbar__btn" type="submit">
-        Rechercher
+        <img src="/img/search.png" alt="" class="icon-search"></img>
       </button>
+      </div>
     </form>
   )
 }

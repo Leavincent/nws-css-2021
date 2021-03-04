@@ -29,6 +29,10 @@ const Item = ({ item, fetchNasaData, setInput }) => {
 
   return (
     <div className="item">
+      <div className="item-img">
+      <ItemPreview links={links} fetchCollection={fetchCollection} />
+      </div>
+      <div className="item-content">
       {title && <h2 className="item__title">{title}</h2>}
       {date_created && (
         <p className="item__date-created">
@@ -60,7 +64,7 @@ const Item = ({ item, fetchNasaData, setInput }) => {
         <p className="item__description">{descriptionText}</p>
       )}
 
-      <ItemPreview links={links} fetchCollection={fetchCollection} />
+    </div>
     </div>
   )
 }

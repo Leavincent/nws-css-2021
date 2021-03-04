@@ -1,0 +1,79 @@
+.header{
+    height: 90vh;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+  
+}
+
+/*####################################################################*/
+/* LOGO */
+  
+.logo-container{
+    width: 100%;
+    text-align: center;
+}
+  
+.logo{
+    width: 150px;
+}
+
+
+/*####################################################################*/
+/* TITLES */
+  
+.title-container{
+    width: 100%;
+    text-align: center;
+    margin-top: -12%;
+}
+
+
+/*####################################################################*/
+/* SEARCH BAR */
+  
+.search-container{
+    width: 100%;
+    margin-top: -45%;
+    display: flex;
+}
+  
+.searchbar__input{
+    width: 90%;
+    border: 3px solid white;
+    padding: 5px;
+    height: 50px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: $font;
+  
+}
+  
+.searchbar__btn {
+    justify-content: end;
+    width: 10%;
+    height: 66px;
+    border: 1px solid $font;
+    background: $font;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+  
+.icon-search{
+    width: 50%;
+}
+
+.link{
+    border: 3px solid white;
+    padding: 5px;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+  

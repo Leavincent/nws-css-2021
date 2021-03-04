@@ -1,0 +1,38 @@
+.item{
+    display: flex;
+    background-color: $font;
+    color: white;
+}
+
+.item-content{
+    width: 50%;
+    text-align: center;
+}
+
+.item__preview{
+    width: 100%;
+}
+
+.item__title{
+    margin: 5%;
+}
+
+.item-img{
+    width: 50%;
+}
+
+.item:nth-of-type(even){
+    background-color: white;
+    color: $font;
+}
+
+.item__keyword{
+    border: 3px solid white;
+    padding: 5px;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+
+}
+
